@@ -20,7 +20,7 @@ The model utilizes a **Feedforward Backpropagation** architecture with the follo
 | **Hidden** | 10 | **Logsig** (Sigmoid) | Extracts non-linear patterns from clinical data. |
 | **Output** | 1 | **Logsig** (Sigmoid) | Binary Classification (0 = Normal, 1 = Disease). |
 
-![Network Diagram](https://github.com/YOUR-USERNAME/Thyroid-Disease-Detection-ANN/blob/main/ann_architecture.png?raw=true)
+![Network Diagram](https://github.com/amna-014/Thyroid-Disease-Detection-ANN/blob/main/ann%20diagram.jpg?raw=true)
 
 ## Methodology & Training
 * **Algorithm:** Scaled Conjugate Gradient (`trainscg`).
@@ -33,11 +33,11 @@ The model achieved **100% classification accuracy** on the test subset, demonstr
 
 ### 1. Confusion Matrix
 The matrix shows zero false positives and zero false negatives across all datasets.
-![Confusion Matrix](https://github.com/YOUR-USERNAME/Thyroid-Disease-Detection-ANN/blob/main/confusion_matrix.png?raw=true)
+![Confusion Matrix](https://github.com/amna-014/Thyroid-Disease-Detection-ANN/blob/main/confusion%20matrix.jpg?raw=true)
 
 ### 2. Receiver Operating Characteristic (ROC)
 The Area Under the Curve (AUC) is **1.0**, indicating perfect discrimination between the two classes.
-![ROC Curve](https://github.com/YOUR-USERNAME/Thyroid-Disease-Detection-ANN/blob/main/roc_curve.png?raw=true)
+![ROC Curve](https://github.com/amna-014/Thyroid-Disease-Detection-ANN/blob/main/roc%20curve.jpg?raw=true)
 
 ### 3. Error Analysis
 * **Best Validation Performance:** 0.008543 at Epoch 25.
